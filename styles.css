@@ -1,0 +1,129 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    background-image: url("images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+
+#about {
+    background: rgb(104, 236, 230);
+}
+
+#me {
+    margin-top: -200px;
+}
+
+#t3xt {
+    margin: 300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+#projects {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    background-image: url("images/project-bj.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+
+#video {
+    background: lightyellow;
+}
+
+#contact {
+    height: 150px;
+    background: lightgreen;
+}
+
+#fb{
+    margin-top: 10px;
+}
+
+.project {
+    padding: 10px;
+    margin: 10px;
+    background: lightblue;
+    cursor: pointer;
+    width: 200px;
+}
+
+#sidebar {
+    position: fixed;
+    left: -520px;  
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: lightblue;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#menuBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: lightblue;
+    font-size: 20px;
+}
+
+.projBtn {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: rgb(47, 62, 66);
+    border: none;
+    color:white;
+    cursor: pointer;
+    width: 220px;
+    font-size: 16px;
+}
+
+.vidBox {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.projVideo {
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}

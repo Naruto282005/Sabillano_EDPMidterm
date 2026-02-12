@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="menuBtn">☰</button>
+
+<div id="sidebar">
+    <button id="closeBtn">Close</button>
+    <a href="#hero">Hero</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#video">Video</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<section id="hero">
+    <b>Welcome to My Portfolio</b>
+</section>
+
+<section id="about">
+    <h2 id="me">About Me</h2>
+    <p id="t3xt">I'am Jarl A. Sabillano a passionate and detail-oriented event-driven professional dedicated to creating meaningful and memorable experiences. With a strong foundation in planning, coordination, and execution, he transforms ideas into seamless, engaging events that leave lasting impressions.
+
+Jarl approaches every project with both strategy and creativity — ensuring that each event has a clear purpose, well-structured execution, and impactful audience engagement. From concept development to post-event evaluation, he carefully manages logistics, timelines, and collaboration to deliver exceptional results.
+
+Known for his adaptability, strong organizational skills, and ability to perform under pressure, Jarl brings energy, professionalism, and commitment to excellence in every event he handles. He continuously seeks innovative ideas and emerging trends to elevate the quality and impact of his work.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <button class="projBtn" data-target="vid1">Project 1</button>
+    <div id="vid1" class="vidBox">
+        <video class="projVideo" controls>
+            <source src="videos/solo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <button class="projBtn" data-target="vid2">Project 2</button>
+    <div id="vid2" class="vidBox">
+        <video class="projVideo" controls>
+            <source src="videos/duo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <button class="projBtn" data-target="vid3">Project 3</button>
+    <div id="vid3" class="vidBox">
+        <video class="projVideo" controls>
+            <source src="videos/trio.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<section id="video">
+    <h2>Featured Video</h2>
+    <video id="myVideo" width="400" muted>
+        <source src="videos/featured.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <b>Email: sabillano057@gmail.com</b>
+    <b id="fb">Facebook: <a href="https://www.facebook.com/jarlsabillano.sabillano.9/" target="_blank">Jarl Sabillano</a>
+</section></b>
+
+<script src="script.js"></script>
+</body>
+</html>
